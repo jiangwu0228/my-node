@@ -16,7 +16,8 @@ app.get('/', function (req, res, next) {
         var $element = $(element);
         items.push({
           title: $element.attr('title'),
-          href: $element.attr('href')
+          href: $element.attr('href'),
+          count: $element.attr('count')
         });
       });
 
