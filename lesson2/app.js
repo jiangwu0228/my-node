@@ -16,13 +16,13 @@ const app = express();
   // 我刚入职阿里的时候跟着苏千和朴灵混，所以也混到了不少他们的技术堆栈，仅此而已。
   // utility 的 github 地址：https://github.com/node-modules/utility
   // 里面定义了很多常用且比较杂的辅助方法，可以去看看
-//   var md5Value = utils.md5(req.query.q);
+//   var md5Value = utils.sha1 (req.query.q);
 
-//   res.send(utils.md5(req.query.q));
+//   res.send(utils.sha1 (req.query.q));
 // });
 
 app.get('/',(req,res)=>{
-    res.send(utils.md5(req.query.q));
+    res.send(utils.sha1(req.query.q));
 }
 );
 
