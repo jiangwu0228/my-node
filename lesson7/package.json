@@ -1,0 +1,11 @@
+{
+  "name": "lesson7",
+  "version": "1.0.0",
+  "description": "mocha, chai, phantomjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "jason",
+  "license": "ISC"
+}
